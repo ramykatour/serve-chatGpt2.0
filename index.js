@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 // Configure open api
 const configuration = new Configuration({
   organization: "org-Jz5Bp4dI7bxfs6Phpl5GAITs",
-  apiKey: process.env.API_KEY, // VISIT .env AND MAKE CHANGES
+  apiKey: "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", // VISIT .env AND MAKE CHANGES
 });
 const openai = new OpenAIApi(configuration);
 
